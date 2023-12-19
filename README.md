@@ -192,3 +192,17 @@ Please see [CONTRIBUTING](https://github.com/thephpleague/oauth2-linkedin/blob/m
 ## License
 
 The MIT License (MIT). Please see [License File](https://github.com/thephpleague/oauth2-linkedin/blob/master/LICENSE) for more information.
+
+## Sync Fork
+https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork
+
+```
+$ git pull upstream TAG_NANE
+$ git push
+
+$ git fetch -t upstream
+$ git remote update
+$ git push --tags
+```
+
+Create Release on GitHub
